@@ -6,6 +6,8 @@ This is the basic template for flutter devleopment.
 
 따라서 해당 필요한 코드들(`pubspec.yaml`, `main.dart` 등)을 제외하고는 새로운 프로젝트로 진행하고, 다른 부분들은 `exampleproject`라는 이름을 모두 바꾸는 형식으로 진행하면 좋다.
 
+기본적인 해당 프로젝트는 GetX를 통한 라우팅 및 상태관리를 사용합니다. 다른 상태관리 패키지를 작업한다면 다른 템플릿을 사용하는 것이 좋습니다.
+
 ## 기본 세팅 체크리스트
 - [ ] (로그인이 필요한 서비스의 경우) Firebase 설정을 완료하였는가? [참고링크](https://firebase.google.com/docs/flutter/setup?hl=ko&platform=ios)
 
