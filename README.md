@@ -24,3 +24,10 @@ class ENV {
 }
 ```
 - [ ] 앱 아이콘을 변경하였는가? [참고링크](https://www.appicon.co/)
+- [ ] 테스트 플라이트에 올릴 때 알고리즘 체크를 안하기 위해 info.plist를 업데이트 하였는가?
+
+```
+Key : App Uses Non-Exempt Encryption
+Type : Boolean
+Value : NO
+```
