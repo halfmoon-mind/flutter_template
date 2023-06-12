@@ -12,6 +12,8 @@ This is the basic template for flutter devleopment.
 - [ ] (로그인이 필요한 서비스의 경우) Firebase 설정을 완료하였는가? [참고링크](https://firebase.google.com/docs/flutter/setup?hl=ko&platform=ios)
 - [ ] 애플 로그인을 사용하려면 다음과 같은 로직을 따랐는가? [애플 로그인](https://dalgoodori.tistory.com/49)
 - [ ] 카카오 로그인을 사용하려면 다음과 같은 로직을 따랐는가? [카카오 로그인](https://developers.kakao.com/docs/latest/ko/kakaologin/flutter)
+- [ ] Android 용 패키지 설정을 완료하였는가?
+- [ ] iOS 용 패키지 설정을 완료하였는가?
 
 - [ ] /lib/env/env.dart 내부에 다음과 같은 ENV class가 존재하는가?
 ```dart
