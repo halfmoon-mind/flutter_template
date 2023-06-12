@@ -1,10 +1,9 @@
-# flutter basic template
-플러터 개발에 대한 기본적인 템플릿을 만듦니다.
-This is the basic template for flutter devleopment.
+# Basic Template for Flutter Application Development
+플러터 어플리케이션 개발을 할 때 초기 세팅을 하는 법을 서술합니다.
 
-기본적인 세팅은 동일하나, 각 프로젝트 별로 프로젝트 명이 동일하지 않으면 빌드가 되지 않는 경우가 있으니, 해당 부분을 확인해야한다.
+기본적인 세팅은 동일하나, 각 프로젝트 별로 프로젝트 명이 동일하지 않으면 빌드가 되지 않는 경우가 있으니, 해당 부분을 확인해야 합니다.
 
-따라서 해당 필요한 코드들(`pubspec.yaml`, `main.dart` 등)을 제외하고는 새로운 프로젝트로 진행하고, 다른 부분들은 `exampleproject`라는 이름을 모두 바꾸는 형식으로 진행하면 좋다.
+따라서 해당 필요한 코드들(`pubspec.yaml`, `main.dart` 등)을 제외하고는 새로운 프로젝트로 진행하고, 다른 부분들은 `exampleproject`라는 이름을 모두 바꾸는 형식으로 진행하면 좋습니다.
 
 기본적인 해당 프로젝트는 GetX를 통한 라우팅 및 상태관리를 사용합니다. 다른 상태관리 패키지를 작업한다면 다른 템플릿을 사용하는 것이 좋습니다.
 
