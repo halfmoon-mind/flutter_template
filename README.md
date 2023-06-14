@@ -26,9 +26,9 @@ class ENV {
 ```
 - [ ] 앱 아이콘을 변경하였는가? [참고링크](https://www.appicon.co/)
 - [ ] 테스트 플라이트에 올릴 때 알고리즘 체크를 안하기 위해 info.plist를 업데이트 하였는가?
-
 ```
 Key : App Uses Non-Exempt Encryption
 Type : Boolean
 Value : NO
 ```
+- [ ] 배포 자동화를 위해 Fastlane 세팅을 완료하였는가? [참고링크](https://dev-yakuza.posstree.com/ko/flutter/fastlane/#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%9A%A9-fastlane-%EC%8B%A4%ED%96%89)
