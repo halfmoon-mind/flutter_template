@@ -32,3 +32,9 @@ Type : Boolean
 Value : NO
 ```
 - [ ] 배포 자동화를 위해 Fastlane 세팅을 완료하였는가? [참고링크](https://dev-yakuza.posstree.com/ko/flutter/fastlane/#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%9A%A9-fastlane-%EC%8B%A4%ED%96%89)
+- [ ] 권한 설정을 위한 메시지를 잘 작성하였는가?
+```
+// 예시
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>"깨끗해질지도"가 사용자 위치 기반으로 주변 가게들을 추천하기 위해 위치 권한을 허용해야 합니다.</string>
+```
