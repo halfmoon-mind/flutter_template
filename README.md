@@ -39,3 +39,11 @@ Value : NO
 <string>"깨끗해질지도"가 사용자 위치 기반으로 주변 가게들을 추천하기 위해 위치 권한을 허용해야 합니다.</string>
 ```
 - [ ] 어플리케이션 내에 API Key 데이터가 Native 단에서 필요한 경우 다음과 같은 포맷을 따랐는가? [참고 링크](https://velog.io/@flunge/Flutter-%EC%95%B1%EC%9D%98-Google-maps-api-key-%EA%B4%80%EB%A6%AC)
+- [ ] 안드로이드의 패키지 위치 설정을 완료하였는가?
+```
+기본 세팅이 "com.example.exampleproject"로 되어 있는 경우, /android/app/src/main/kotlin/내에 com/example/exampleproject에 MainActivity.kt로 저장되어 있다.
+VSCode에서 "Shift + Command + F"를 이용하여 앱의 기본적인 앱 id와 매칭되는 것들을 모두 찾을 수 있고, 이를 수정할 수 있다.
+하지만 폴더 구조는 변경되지 않기 때문에 꼭 폴더 위치도 변경된 것에 따라서 수정해 주어야 한다.
+참고로 애플의 패키지 이름은 언더바(_)를 허용하지 않기 때문에 이름을 설정할 때 패키지 uri에 바(-)나 언더 바(_)를 사용하지 않는 편이 좋다.
+```
+- [ ] 앱 사이닝을 위한 key를 업로드 하였는가? [참고 링크](https://docs.flutter.dev/deployment/android)
