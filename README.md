@@ -8,7 +8,7 @@
 기본적인 해당 프로젝트는 GetX를 통한 라우팅 및 상태관리를 사용합니다. 다른 상태관리 패키지를 작업한다면 다른 템플릿을 사용하는 것이 좋습니다.
 
 ## 기본 세팅 체크리스트
-- [ ] (로그인이 필요한 서비스의 경우) Firebase 설정을 완료하였는가? [참고링크](https://firebase.google.com/docs/flutter/setup?hl=ko&platform=ios)
+- [ ] (로그인이 필요한 서비스의 경우) Firebase 설정을 완료하였는가? [참고 링크](https://firebase.google.com/docs/flutter/setup?hl=ko&platform=ios)
 - [ ] 애플 로그인을 사용하려면 다음과 같은 로직을 따랐는가? [애플 로그인](https://dalgoodori.tistory.com/49)
 - [ ] 카카오 로그인을 사용하려면 다음과 같은 로직을 따랐는가? [카카오 로그인](https://developers.kakao.com/docs/latest/ko/kakaologin/flutter)
 - [ ] Android 용 패키지 설정을 완료하였는가?
@@ -24,17 +24,18 @@ class ENV {
   static String get apiEndpoint => kReleaseMode ? "" : ""; //첫번째가 릴리즈 모드시 사용할 버전
 }
 ```
-- [ ] 앱 아이콘을 변경하였는가? [참고링크](https://www.appicon.co/)
+- [ ] 앱 아이콘을 변경하였는가? [참고 링크](https://www.appicon.co/)
 - [ ] 테스트 플라이트에 올릴 때 알고리즘 체크를 안하기 위해 info.plist를 업데이트 하였는가?
 ```
 Key : App Uses Non-Exempt Encryption
 Type : Boolean
 Value : NO
 ```
-- [ ] 배포 자동화를 위해 Fastlane 세팅을 완료하였는가? [참고링크](https://dev-yakuza.posstree.com/ko/flutter/fastlane/#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%9A%A9-fastlane-%EC%8B%A4%ED%96%89)
+- [ ] 배포 자동화를 위해 Fastlane 세팅을 완료하였는가? [참고 링크](https://dev-yakuza.posstree.com/ko/flutter/fastlane/#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%9A%A9-fastlane-%EC%8B%A4%ED%96%89)
 - [ ] 권한 설정을 위한 메시지를 잘 작성하였는가?
 ```
 // 예시
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 <string>"깨끗해질지도"가 사용자 위치 기반으로 주변 가게들을 추천하기 위해 위치 권한을 허용해야 합니다.</string>
 ```
+- [ ] 어플리케이션 내에 API Key 데이터가 Native 단에서 필요한 경우 다음과 같은 포맷을 따랐는가? [참고 링크](https://velog.io/@flunge/Flutter-%EC%95%B1%EC%9D%98-Google-maps-api-key-%EA%B4%80%EB%A6%AC)
