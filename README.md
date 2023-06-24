@@ -13,7 +13,7 @@
 - [ ] 카카오 로그인을 사용하려면 다음과 같은 로직을 따랐는가? [카카오 로그인](https://developers.kakao.com/docs/latest/ko/kakaologin/flutter)
 - [ ] Android 용 패키지 설정을 완료하였는가?
 ```
-기본 세팅이 "com.example.exampleproject"로 되어 있는 경우, /android/app/src/main/kotlin/내에 com/example/exampleproject에 MainActivity.kt로 저장되어 있다.
+기본 세팅이 "app.example.sanghyeon"로 되어 있는 경우, /android/app/src/main/kotlin/내에 com/example/exampleproject에 MainActivity.kt로 저장되어 있다.
 VSCode에서 "Shift + Command + F"를 이용하여 앱의 기본적인 앱 id와 매칭되는 것들을 모두 찾을 수 있고, 이를 수정할 수 있다.
 하지만 폴더 구조는 변경되지 않기 때문에 꼭 폴더 위치도 변경된 것에 따라서 수정해 주어야 한다.
 ```
