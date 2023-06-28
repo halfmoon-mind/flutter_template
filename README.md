@@ -46,3 +46,8 @@ Value : NO
 - [ ] 어플리케이션 내에 API Key 데이터가 Native 단에서 필요한 경우 다음과 같은 포맷을 따랐는가? [참고 링크](https://velog.io/@flunge/Flutter-%EC%95%B1%EC%9D%98-Google-maps-api-key-%EA%B4%80%EB%A6%AC)
 - [ ] 앱 사이닝을 위한 key를 업로드 하였는가? [참고 링크](https://docs.flutter.dev/deployment/android)
 - [ ] 어플리케이션 알림을 확인할 수 있도록 flutter_app_badger를 사용하였는가? [참고 링크](https://pub.dev/packages/flutter_app_badger)
+- [ ] JSON 직렬화를 위한 세팅을 완료하였는가? [참고 링크](https://pub.dev/packages/json_serializable)
+```
+flutter pub run build_runner build
+```
+- [ ] 
