@@ -5,5 +5,5 @@ class ENV {
   static const build = 1;
   static const playstoreURL = "";
   static const appstoreURL = "";
-  static String get apiEndpoint => kReleaseMode ? "" : ""; //첫번째가 릴리즈 모드시 사용할 버전
+  static String get apiEndpoint => kReleaseMode ? "release" : "dev";
 }
