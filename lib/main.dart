@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:exampleproject/style/style.dart';
+import 'package:exampleproject/core/style/style.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return MaterialApp(
       builder: (context, child) => MediaQuery(
         data: MediaQuery.of(context).copyWith(
-          textScaleFactor: 1.0,
+          textScaler: const TextScaler.linear(1.0),
         ),
         child: child!,
       ),
@@ -25,9 +24,6 @@ class MyApp extends StatelessWidget {
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: const [Locale('ko', 'KR')],
-      initialBinding: BindingsBuilder(() {
-        //init binding with Get.put()
-      }),
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           brightness: Brightness.light,
